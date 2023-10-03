@@ -1,0 +1,73 @@
+
+
+import 'package:get/get.dart';
+
+class Messages extends Translations{
+  @override
+  // TODO: implement keys
+  Map<String, Map<String, String>> get keys => {
+    'en_US':{
+      'home': 'Home',
+      'b-pressure': 'b-pressure',
+      'guide': 'Guide',
+      'settings': 'Settings',
+      'blood Sugar': 'Blood Sugar',
+      'no Records': 'No Records',
+      'height': 'Height',
+      'weight': 'Weight',
+      'normal': 'Normal',
+      'calculate': 'Calculate',
+      'max': 'Max',
+      'min': 'Min',
+      'average': 'Average',
+      'latest': 'Latest',
+      'systolic': 'Systolic',
+      'diatolic': 'Diatolic',
+      'bloodPressureTracker': 'Blood pressure Tracker',
+      'normalBloodPressure': 'Normal Blood pressure',
+      'save': 'Save',
+      'pule': 'Pule',
+      'note': 'Note',
+      'optional': 'Optional',
+      'Date and time': 'Date and time',
+      'note': 'Note',
+      'learnMoreAboutBloodPressure': 'Learn more about Blood pressure',
+      'english': 'English',
+      'arabic': 'Arabic',
+      'french': 'French',
+      'hindi': 'Hindi',
+    },
+    'ar_SA':{
+      'home': 'منزل',
+      'b-pressure': 'ب- الضغط',
+      'guide': 'دليل',
+      'settings': 'إعدادات',
+      'blood Sugar': 'سكر الدم',
+      'no Records': 'لا سجلات',
+      'height': 'ارتفاع',
+      'weight': 'وزن',
+      'normal': 'عادي',
+      'calculate': 'حساب',
+      'max': 'أقصى',
+      'min': 'الحد الأدنى',
+      'average': 'متوسط',
+      'latest': 'أخير',
+      'systolic': 'الانقباضي',
+      'diatolic': 'دياتوليك',
+      'bloodPressureTracker': 'تعقب ضغط الدم',
+      'normalBloodPressure': 'ضغط الدم الطبيعي',
+      'save': 'حفظ',
+      'pule': 'أنقذ',
+      'note': 'ملاحظه',
+      'optional': 'اختياري',
+      'Date and time': 'التاريخ و الوقت',
+      'note': 'ملحوظة',
+      'learnMoreAboutBloodPressure': 'اعرف المزيد عن ضغط الدم',
+      'english': 'إنجليزي',
+      'arabic': 'عربي',
+      'french': 'French',
+      'hindi': 'Hindi',
+
+    },
+  };
+}
